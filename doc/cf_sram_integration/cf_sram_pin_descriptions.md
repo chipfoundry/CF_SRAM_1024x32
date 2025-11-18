@@ -7,7 +7,7 @@
 | Pin 49 | CLKin | digital | In | vpwrtp | vgnd | LV | No | Clock Input |
 | Pin 50 | D[8:1:0] | digital | In | vpwrtp | vgnd | LV | No | Data In, sampled on rising edge of CLKin, ignored during read cycle |
 | Pin 51 | DQ[8:1:0] | digital | Out | vpwrtp | vgnd | LV | No | Data out |
-| Pin 52 | BEN[8:1:0] | digital | In | vpwrtp | vgnd | LV | No | Ueta bit enables, sampled on rising edge of CLKin. Allow/block writing to a memory bit Low=bit disabled, High=bit enabled |
+| Pin 52 | BEN[8:1:0] | digital | In | vpwrtp | vgnd | LV | No | Data bit enables, sampled on rising edge of CLKin. Allow/block writing to a memory bit Low=bit disabled, High=bit enabled |
 | Pin 53 | WL/OFF | digital | In | vpwrtp | vgnd | LV | No | Wordline off for test if vpwrtp not driven - e.g. vpwrmcT when power switch is used to power vpwrtp) For WLBH-0, WLOFF=0: Normal operation. For WLBH-0, WLOFF=1: all wordlines clamped to vgnd, and READand WRITE disabled. For WLBH=1, WLOFF=0: WLBI testmode. For WLBI=1, WLOFF=1: illegal state |
 | Pin 54 | WLBI | digital | In | vpwrtp | vgnd | LV | No | DISABLED (Wafer Level Burn In test mode. WLBI=1 All wordlines are ON. WLBI=0: Normal operation) |
 | Pin 55 | R_WB | digital | In | vpwrtp | vgnd | LV | No | Read High, Write Low |
