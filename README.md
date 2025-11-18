@@ -156,3 +156,7 @@ ipm install CF_SRAM_1024x32
 ## Timing Diagram
 
 ![](doc/timing_diagram.jpg)
+
+## Integration Guidelines
+
+The integration guidelines can be found [here](doc/cf_sram_integration/cf_sram_integration.md)
